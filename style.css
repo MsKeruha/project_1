@@ -18,6 +18,7 @@ main{
     display: flex;
     flex-direction: column;
     width: 80%;
+    background-color: #f8f8f8;
 }
 .greetings, .links, .news, .footer{
     border: solid 1px black;
