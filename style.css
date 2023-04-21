@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    height: 980px;
+}
+.leftpanel{
+    width: 20%;
+    background-color: #1C1C1C;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.greetings, .links, .news, .footer{
+    border: solid 1px black;
+}
+.greetings{
+    height: 150px;
+}
+.links{
+    height: 120px;
+}
+.news{
+    height: 570px;
+}
+.footer{
+    height: 140px;
+}
