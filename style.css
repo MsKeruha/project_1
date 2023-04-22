@@ -20,11 +20,14 @@ main{
     width: 80%;
     background-color: #f8f8f8;
 }
-.greetings, .links, .news, .footer{
+.links, .news, .footer{
     border: solid 1px black;
 }
 .greetings{
-    height: 150px;
+    height: 140px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color:#fff;
 }
 .links{
     height: 120px;
@@ -34,4 +37,29 @@ main{
 }
 .footer{
     height: 140px;
+}
+.hi{
+  margin-left: 80px;
+  margin-top: 50px;
+  font-size: auto;
+  float: left;
+  display: block;
+  width: auto;
+  height: auto;
+  margin-right: 3px;
+  line-height: 30px;
+}
+.hi h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+ }
+.hi p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+ }
+.im{
+  margin-top: 18px;
+  float: left;
+  display: block;
+  width: auto;
 }
