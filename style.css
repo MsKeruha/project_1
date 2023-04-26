@@ -16,27 +16,31 @@ body{
     display: flex;
     flex-direction: column;
 }
-.leftpanel__div{
+.leftpanel a{
+    display: flex;
+    text-decoration: none;
+}
+.leftpanel__content{
     margin: 55px auto;
     display: flex;
     flex-direction: column;
     width: 210px;
 }
-.logo{
+.leftpanel__logo{
     width: 115px;
     margin: 0 auto;
 }
-.avatar{
+.leftpanel__avatar{
     width: 136px;
     margin: 30px auto 5px;
 }
-.avatarname{
+.leftpanel__avatarname{
     font-family: 'Poppins';
     font-weight: 300;
     text-align: center;
     color: white;
 }
-.list1{
+.nav__list1{
     list-style: none;
     width: 210px;
     margin-top: 80px;
@@ -45,79 +49,79 @@ body{
     font-weight: 400;
     padding: 0;
 }
-.list1 li{
+.nav__list1 li{
     padding: 20px;
     display: flex;
     flex-direction: row;
     border-bottom: 1px #A1A1A1 solid;
 }
-.list1 p{
+.nav__list1 p{
     margin-left: 14px;
     color: #A1A1A1;
 }
-.arrow{
+.nav__arrow{
     width: 7px !important; 
     margin-left: 5px;
 }
-.list1 img{
+.nav__list1 img{
     width: 24px;
 }
-.first{
+.list1__first{
     display: flex;
     flex-direction: column !important;
 }
-.first img{
+.list1__first img{
     height: 24px;
 }
-.lists{
+.list1__elem{
     display: flex;
     flex-direction: row;
     height: 24px;
 }
-.first p{
+.list1__first p{
     color: white !important;
     height: 24px;
 }
-.list2 li{
+.nav__list2 li{
     border-bottom: none;
     padding: 0;
     
 }
-.list2 p{
+.nav__list2 p{
     margin-left: 0;
 }
-.list2 li::before {
+.nav__list2 li::before {
     content: "\2022";  
     color: white;
     font-weight: bold;
     width: 1em;
 }
-.leftpanel__nav{
+.nav__footer{
     width: 210px;
-    margin: 220px auto;
+    margin: 260px auto 0;
     display: flex;
     line-height: 41px;
     justify-content: space-between;
 }
-.leftpanel__nav p{
+.nav__footer p{
     font-family: 'Poppins';
     font-weight: 400;
     color: white;
     font-size: 12px;
 }
-.navdiv{
+.nav__from{
     display: flex;
 }
 .frame{
     width: 52px;
 }
-.setting{
+.nav__setting{
     width: 24px;
 }
 main{
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 1100px;
     background-color: #f8f8f8;
 }
 .greetings{
@@ -264,7 +268,7 @@ main{
   .news__panel3{
       background-color: white;
       width: 82%;
-      height: 85px;
+      height: 79px;
       padding: 35px;
       border-radius: 15px;
       margin-left: 20px;
@@ -312,23 +316,28 @@ main{
   } 
   .news__links1{
       padding: 15px;
-  
-  }
-  .news__links1 ul{
-      list-style: none;
-      margin-top: -5%;
-      margin-left: -20%;
-  }
-  .news__links1 li{
-      box-shadow: 5px 0px 10px rgba(0,0,0,0.1);
       display: flex;
-      padding: 10px;
-      margin-bottom: 20px;
-      height: 50px;
-     
+      flex-direction: column;
+      margin-top: -2%;
   }
-  .news__links1 img{
-      width: 45px;   
+  .news__links1__12{
+    display: flex;
+    flex-direction: column;
+  }
+  .news__link{
+    width: 100%;
+    box-shadow: 5px 0px 10px rgba(0,0,0,0.1);
+    display: flex; 
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 50px;
+    
+  }
+  .news__link div{
+    margin-right: 5px;
+}    
+.news__links1 img{
+    width: 45px;   
       
   }
   .news__links1 h3{
@@ -341,42 +350,36 @@ main{
   .news__links1 a{
       text-decoration: none;
       color: black;
-      margin: 5px;
-  }
-  .news__links2 ul{
-      list-style: none;
       display: flex;
-      column-gap: 30px;
-      margin-top: -2%;
-     
   }
+  .news__links2{
+    display: flex;
+}
   .news__links2 img{
       width:45px;
-  }
+}
   .news__links2 a{
       text-decoration: none;
       color: black;
       margin: 2%;
       vertical-align: middle;
-  }
+      display: flex;
+}
+  .news__links2 div{
+    margin-right: 10px;
+    margin-top: -2%;
+} 
   .news__links2 p{
   font-size: 7px;
   color: gray;
-  }
+}
   .news__links2 h3{
       font-size: 11px;
-      }
+}
   .news__links2 h2{
       font-size: 14px;
-      }
-  .news__links2 li{
-      box-shadow: 5px 0px 10px rgba(0,0,0,0.1);
-      display: flex;
-      padding: 10px;
-      margin-bottom: 20px;
-      height: 50px;
-  } 
-.footer{
+} 
+footer{
     background-color: white;
     display: flex;
     border: 1px white solid;
@@ -416,4 +419,9 @@ main{
     height: 28px;
     display: block;
     margin-left: 5px;
+}
+.index{
+    display: flex;
+    flex-direction: column;
+    height: 980px;
 }
