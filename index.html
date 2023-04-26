@@ -5,63 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>MiPortal</title>
 </head>
 <body>
-    <section class="leftpanel">
-        <div class="leftpanel__div">
-            <img src="./img/LogoMiPortalU-int 1.png" alt="" class="logo">
-            <img src="./img/Ellipse 5.png" alt="" class="avatar">
-            <p class="avatarname">Editar Perfil</p>
-            <ul class="list1">
-                <li class="first">
-                    <div class="lists">
-                    <img src="./img/Icono1.svg" alt="">
-                    <p>Servicios</p>
-                    <img src="./img/arrow-circle-down.svg" alt="" class="arrow">
+    <aside class="leftpanel">
+        <div class="leftpanel__content">
+            <img src="./img/LogoMiPortalU-int 1.png" alt="" class="leftpanel__logo">
+            <img src="./img/Ellipse 5.png" alt="" class="leftpanel__avatar">
+            <p class="leftpanel__avatarname">Editar Perfil</p>
+            <nav>
+                <ul class="nav__list1">
+                    <li class="list1__first">
+                        <div class="list1__elem">
+                        <img src="./img/Icono1.svg" alt="">
+                        <p>Servicios</p>
+                        <img src="./img/arrow-circle-down.svg" alt="" class="nav__arrow">
+                        </div>
+                        <ul class="nav__list2">
+                            <li>
+                                <a href=""><p>Biblioteca</p>
+                                <img src="./img/arrow-circle-right-white.svg" alt="" class="nav__arrow"></a>
+                                
+                            </li>
+                            <li>
+                                <a href=""><p>E-Learning</p>
+                                <img src="./img/arrow-circle-right-white.svg" alt="" class="nav__arrow"></a>
+                                
+                            </li>
+                            <li>
+                                <a href=""><p>Sistemas</p>
+                                <img src="./img/arrow-circle-right-white.svg" alt="" class="nav__arrow"></a>
+                                
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <img src="./img/Icono2.svg" alt="">
+                        <p>Estudiante</p>
+                        <img src="./img/arrow-circle-down-gray.svg" alt="" class="nav__arrow">
+                    </li>
+                    <li>
+                        <img src="./img/Icono3.svg" alt="">
+                        <p>Información</p>
+                        <img src="./img/arrow-circle-down-gray.svg" alt="" class="nav__arrow">
+                    </li>
+                </ul>
+                <div class="nav__footer">
+                    <a href=""><img src="./img/setting-2.svg" alt="" class="nav__setting"></a>
+                    <a href=""><div class="nav__from">
+                        <p>From</p>
+                        <img src="./img/Frame 2.svg" alt=""    class="frame">
+                    </a>
                     </div>
-                    <ul class="list2">
-                        <li>
-                            <p>Biblioteca</p>
-                            <img src="./img/arrow-circle-right-white.svg" alt="" class="arrow">
-                        </li>
-                        <li>
-                            <p>E-Learning</p>
-                            <img src="./img/arrow-circle-right-white.svg" alt="" class="arrow">
-                        </li>
-                        <li>
-                            <p>Sistemas</p>
-                            <img src="./img/arrow-circle-right-white.svg" alt="" class="arrow">
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <img src="./img/Icono2.svg" alt="">
-                    <p>Estudiante</p>
-                    <img src="./img/arrow-circle-down-gray.svg" alt="" class="arrow">
-                </li>
-                <li>
-                    <img src="./img/Icono3.svg" alt="">
-                    <p>Información</p>
-                    <img src="./img/arrow-circle-down-gray.svg" alt="" class="arrow">
-                </li>
-            </ul>
+                </div>
+            </nav>
         </div>
         <nav class="leftpanel__nav">
-            <img src="./img/setting-2.svg" alt="" class="setting">
-            <div class="navdiv">
-                <p>From</p>
-                <img src="./img/Frame 2.svg" alt=""    class="frame">
-            </div>
+            
         </nav>
-    </section>
+    </aside>
+    <section class="index">
     <main>
         <section class="greetings">
         <div class="hi">
           <h2>Hola, Cristian.</h2>
           <p>Hoy es, 21 de Enero</p>
         </div>
-        <img class="im" src="https://raw.githubusercontent.com/MsKeruha/project_1/939d18986a2bfa3c36f40556139e74563ae3bdd9/man.svg">
+        <img class="im" src="./img/man.svg">
         </section>
         <section class="links">
             <ul>
@@ -114,126 +124,141 @@
                     <a href="#">Mas noticias</a>
                 </div>
             </div>
-            <div class="news__panels">
+        <div class="news__panels">
             <div class="news__panel12">
                 <div class="news__panel1">
                     <div class="news__name">
                         <h2>Cursos</h2>
                     </div>
                     <div class="news__links1">
-                        <ul>
-                            <li>
-                                <a href="#"><img src="./img/unsplash_ZS67i1HLllo.png" alt=""></a>
-                                <a href="#">
+                        <div class="news__link">
+                            <a href="">
+                                <div><img src="./img/unsplash_ZS67i1HLllo.png" alt=""></div>
+                                <div>
                                     <h3>JavaScript Avanzado</h3>
                                     <p>12 de Enero I Segundo piso Facultad de Ingenieria</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="%"><img src="./img/unsplash_B3l0g6HLxr8.png" alt=""></a>
-                                <a href="#">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="news__link">
+                            <a href="%">
+                                <div><img src="./img/unsplash_B3l0g6HLxr8.png" alt=""></div>
+                                <div>
                                     <h3>Angular Medio</h3>
                                     <p>12 de Enero I Segundo piso Facultad de Ingenieria</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#"> <img src="./img/unsplash_wUbNvDTsOIc.png" alt=""></a>
-                                <a href="#">
+                                </div>
+                            </a>
+                        </div>
+                           
+                        <div class="news__link">
+                            <a href="#"> 
+                                <div><img src="./img/unsplash_wUbNvDTsOIc.png" alt=""></div>
+                                <div>
                                     <h3>HTML Basico</h3>
                                     <p>12 de Enero I Segundo piso Facultad de Ingenieria</p>
-                                </a>
-                            </li>
-                        </ul>
+                                </div>
+                             </a>
+                        </div>
                     </div>
                 </div>
+            
                 <div class="news__panel2">
                     <div class="news__name">
                         <h2>Horas Libres</h2>
                     </div>
                     <div class="news__links1">
-                        <ul>
-                            <li>
-                                <a href="#"><img src="./img/unsplash_9HI8UJMSdZA.png" alt=""></a>
-                                <a href="#">
-                                    <h3>Deportes</h3>
-                                    <p>12 de Enero I Segundo piso Facultad de Ingenieria</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#"><img src="./img/unsplash_eA2t5EvcxU4.png" alt=""></a>
-                                <a href="#">
+                        <div class="news__links1__12">
+                            <div class="news__link">
+                            <a href="#">
+                            <div><img src="./img/unsplash_9HI8UJMSdZA.png" alt=""></div>
+                            <div>
+                                <h3>Deportes</h3>
+                                <p>12 de Enero I Segundo piso Facultad de Ingenieria</p>
+                            </div>
+                            </a>
+                            </div>
+                            <div class="news__link">
+                            <a href="#">
+                                <div><img src="./img/unsplash_eA2t5EvcxU4.png" alt=""></div>
+                                <div>
                                     <h3>Charla Motivacional</h3>
                                     <p>12 de Enero I Segundo piso Facultad de Ingenieria</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#"> <img src="./img/unsplash_3aVlWP-7bg8.png" alt=""></a>
-                                <a href="#">
-                                    <h3>Reunion de Facultades</h3>
-                                    <p>12 de Enero I Segundo piso Facultad de Ingenieria</p>
-                                </a>
-                            </li>
-                        </ul>
+                                </div>
+                            </a>
+                            </div>
+                       
+                            <div class="news__link">
+                            <a href="#">
+                                    <div> <img src="./img/unsplash_3aVlWP-7bg8.png" alt=""></div>
+                                   <div>
+                                        <h3>Reunion de Facultades</h3>
+                                        <p>12 de Enero I Segundo piso Facultad de Ingenieria</p>
+                                    </div>
+                            </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
+            
             </div>
                 <div class="news__panel3">
                     <div class="news__name">
                         <h2>Eventos</h2>
                     </div>
                     <div class="news__links2">
-                        <ul>
-                            <li>
-                                <a href="#"><img src="./img/unsplash_fIHozNWfcvs.png" alt=""></a>
-                                <a href="#">
+                        <div class="news__link">
+                            <a href="#">
+                                <div><img src="./img/unsplash_fIHozNWfcvs.png" alt=""></div>
+                                <div>
                                     <h3>Fiesta de la Facultad de Ingenieria</h3>
                                     <p>12 de Enero I Segundo piso Facultad de Ingenieria</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#"><img src="./img/unsplash_GpNOhig3LSU.png" alt=""></a>
-                                <a href="#">
+                                </div>
+                            </a>
+                            </div>
+                        <div class="news__link">
+                            <a href="#">
+                                <div><img src="./img/unsplash_GpNOhig3LSU.png" alt=""></div>
+                                <div>
                                     <h3>Semillero de Robotica</h3>
                                     <p>12 de Enero I Segundo piso Facultad de Ingenieria</p>
-                                </a>
-                            </li>
-                        </ul>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
-                
-            </div>
-            
-        </section>
-        <section class="footer">
-            <div class="div1">
-                <div class="div1__1">
-                    <p>Universidad Autónoma de Bucaramanga</p>
-                    <p>Avenida 42 No. 48 – 11 | PBX (7)6436111</p>
-                    <p>Bucaramanga - Colombia</p>
-                    <p>NIT: 890.200.499-9</p>
-                    <p>© Todos los derechos reservados | Vigilada Mineducación</p>
-                </div>
-                <div class="div1__2">
-                    <p>Instituto Caldas</p>
-                    <p>ULibro</p>
-                    <p>Unab TV</p>
-                    <p>Periódico 15</p>
-                    <p>Soy Autonomo TV</p>
-                </div>
-                <div class="div1__3">
-                    <p>Unab Radio</p>
-                    <p>Unab Virtual</p>
-                </div>
-            </div>
-            <div class="div2">
-                <nav class="footer__nav">
-                    <a href=""><img src="./img/WhatsApp.svg" alt=""></a>
-                    <a href=""><img src="./img/Intagram.svg" alt=""></a>
-                    <a href=""><img src="./img/Facebook.svg" alt=""></a>
-                </nav>
-                <img src="./img/Saly-16.png" alt="" class="saly">
-            </div>
+        </div> 
         </section>
     </main>
+    <footer>
+        <div class="div1">
+            <div class="div1__1">
+                <p>Universidad Autónoma de Bucaramanga</p>
+                <p>Avenida 42 No. 48 – 11 | PBX (7)6436111</p>
+                <p>Bucaramanga - Colombia</p>
+                <p>NIT: 890.200.499-9</p>
+                <p>© Todos los derechos reservados | Vigilada Mineducación</p>
+            </div>
+            <div class="div1__2">
+                <p>Instituto Caldas</p>
+                <p>ULibro</p>
+                <p>Unab TV</p>
+                <p>Periódico 15</p>
+                <p>Soy Autonomo TV</p>
+            </div>
+            <div class="div1__3">
+                <p>Unab Radio</p>
+                <p>Unab Virtual</p>
+            </div>
+        </div>
+        <div class="div2">
+            <nav class="footer__nav">
+                <a href=""><img src="./img/WhatsApp.svg" alt=""></a>
+                <a href=""><img src="./img/Intagram.svg" alt=""></a>
+                <a href=""><img src="./img/Facebook.svg" alt=""></a>
+            </nav>
+            <img src="./img/Saly-16.png" alt="" class="saly">
+        </div>
+    </footer>
+    </section>
 </body>
 </html>
